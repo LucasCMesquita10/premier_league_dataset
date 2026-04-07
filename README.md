@@ -1,11 +1,12 @@
-⚽ Análise Estatística da Premier League
-📝 Descrição do Projeto
+# ⚽ Análise Estatística da Premier League
+
+## 📝 Descrição do Projeto
 Este projeto realiza uma análise de dados e estatística profunda do histórico de jogos da Premier League, desde a sua criação na temporada de 1993/1994 até o primeiro semestre da temporada 2024/2025. O objetivo principal é extrair insights e compreender o comportamento da liga inglesa ao longo das décadas usando técnicas de ciência de dados.
 
-🎓 Contexto Acadêmico
+## 🎓 Contexto Acadêmico
 O projeto foi desenvolvido como parte prática da disciplina de Modelagem Estatística. Ele consolida conceitos de estatística e manipulação de dados aplicando testes de hipótese e visualização de dados para desmistificar comportamentos e tendências do futebol do campeonato inglês.
 
-🧠 Tratamento de Dados e Decisões de Projeto
+## 🧠 Tratamento de Dados e Decisões de Projeto
 Durante a análise exploratória e limpeza dos dados, algumas decisões metodológicas importantes foram tomadas para garantir a integridade da análise:
 
 Concentração de Valores Nulos: Observou-se que os dados nulos (referentes a cartões, faltas, chutes, escanteios, etc.) se acumulam quase inteiramente antes do ano de 2001. Isso se deve ao fato de que não era comum coletar dados tão granulares na época.
@@ -14,7 +15,7 @@ Preservação de Colunas: Optou-se por não remover (dropar) essas colunas ou as
 
 Não Preenchimento de Nulos (Imputação): Também decidi não preencher os valores nulos com médias ou medianas de épocas posteriores. O futebol mudou drasticamente ao longo das décadas e aplicar médias modernas em jogos dos anos 90 seria estatisticamente perigoso e distorceria a realidade. Além disso, no futebol as dinâmicas são únicas e nem sempre são previsíveis.
 
-📁 Estrutura do Repositório
+## 📁 Estrutura do Repositório
 O projeto é composto pelos seguintes arquivos principais:
 
 England CSV.csv: A base de dados principal contendo informações detalhadas sobre os jogos, como os times, árbitros, placar no intervalo (HT) e final (FT), chutes ao gol, faltas, escanteios e cartões.
@@ -23,7 +24,7 @@ premierLeague.ipynb: Um notebook Jupyter utilizado para a etapa de pré-processa
 
 app.py: Aplicação interativa em Python que armazena um Dashboard web contendo todas as visualizações dinâmicas e painéis analíticos desenvolvidos para o usuário final.
 
-🚀 Funcionalidades do Dashboard (app.py)
+## 🚀 Funcionalidades do Dashboard (app.py)
 O Dashboard foi desenhado utilizando a biblioteca Streamlit e conta com um menu de navegação lateral rico em recursos.
 
 Filtro de Escopo de Tempo:
@@ -35,17 +36,17 @@ Análise Estatística Refinada (2001 - 2025): Focada em métricas profundas (fal
 
 Abas Analíticas:
 
-📊 Visão Geral: Apresentação principal do painel interativo.
+**📊 Visão Geral**: Apresentação principal do painel interativo.
 
-📈 Análise Exploratória: Focada na exibição de gráficos que exploram o comportamento dos dados.
+**📈 Análise Exploratória**: Focada na exibição de gráficos que exploram o comportamento dos dados.
 
-🧪 Testes de Hipótese: Seção dedicada à modelagem estatística profunda, que utiliza as bibliotecas Scipy e Statsmodels para realizar testes matemáticos rigorosos.
+**🧪 Testes de Hipótese**: Seção dedicada à modelagem estatística profunda, que utiliza as bibliotecas Scipy e Statsmodels para realizar testes matemáticos rigorosos.
 
-🔍 Análise por Time: Uma aba para filtrar e focar nas tendências e métricas de desempenho de uma equipe em específico.
+**🔍 Análise por Time**: Uma aba para filtrar e focar nas tendências e métricas de desempenho de uma equipe em específico.
 
-⚔️ Comparação entre Times: Ferramenta projetada para selecionar duas equipes diferentes e colocar seus dados lado a lado para um embate de estatísticas.
+**⚔️ Comparação entre Times**: Ferramenta projetada para selecionar duas equipes diferentes e colocar seus dados lado a lado para um embate de estatísticas.
 
-🛠️ Tecnologias e Bibliotecas Utilizadas
+## 🛠️ Tecnologias e Bibliotecas Utilizadas
 Linguagem: Python
 
 Manipulação de Dados: Pandas, NumPy
@@ -56,7 +57,7 @@ Visualização de Dados: Plotly Express, Plotly Graph Objects, Seaborn, Matplotl
 
 Interface Web: Streamlit, Dash
 
-⚙️ Como Executar o Projeto Localmente
+## ⚙️ Como Executar o Projeto Localmente
 1. Clone este repositório:
     ```bash
     git clone https://github.com/LucasCMesquita10/premier_league_dataset.git
@@ -80,3 +81,5 @@ Para inicializar a interface web, digite no terminal:
     streamlit run app.py
     ```
 5. O aplicativo será aberto automaticamente em seu navegador, geralmente rodando no endereço http://localhost:8501.
+
+**Projeto desenvolvido no segundo semestre de 2025.**

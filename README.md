@@ -57,23 +57,26 @@ Visualização de Dados: Plotly Express, Plotly Graph Objects, Seaborn, Matplotl
 Interface Web: Streamlit, Dash
 
 ⚙️ Como Executar o Projeto Localmente
-Clone este repositório:
-
-git clone https://seu-repositorio.git
-cd seu-repositorio
-Crie e ative um ambiente virtual (Recomendado):
-
-python -m venv venv
-# No Windows:
-venv\Scripts\activate
-# No Linux/Mac:
-source venv/bin/activate
-Instale as dependências:
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/LucasCMesquita10/premier_league_dataset.git
+    ```
+2. Crie e ative um ambiente virtual (Recomendado):
+    ```bash
+    python -m venv venv
+    # No Windows:
+    venv\Scripts\activate
+    # No Linux/Mac:
+    source venv/bin/activate
+    ```
+3. Instale as dependências:
 Você pode instalar os pacotes utilizados rodando o seguinte comando no terminal:
-
-pip install streamlit pandas plotly numpy scikit-learn scipy statsmodels seaborn matplotlib dash
-Execute o Dashboard:
+    ```bash
+    pip install streamlit pandas plotly numpy scikit-learn scipy statsmodels seaborn matplotlib dash
+    ```
+4. Execute o Dashboard:
 Para inicializar a interface web, digite no terminal:
-
-streamlit run app.py
-O aplicativo será aberto automaticamente em seu navegador, geralmente rodando no endereço http://localhost:8501.
+    ```bash
+    streamlit run app.py
+    ```
+5. O aplicativo será aberto automaticamente em seu navegador, geralmente rodando no endereço http://localhost:8501.
